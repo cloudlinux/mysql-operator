@@ -1,5 +1,5 @@
 APP_VERSION ?= $(shell git describe --abbrev=5 --dirty --tags --always)
-REGISTRY := quay.io/presslabs
+REGISTRY := gitlab.corp.cloudlinux.com:5001/cloudmanaged/cloudmanaged
 IMAGE_NAME := mysql-operator
 SIDECAR_IMAGE_NAME := mysql-operator-sidecar
 BUILD_TAG := build
